@@ -1,0 +1,764 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+  box-sizing: border-box;
+}
+
+ul,ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a:hover,
+a{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+
+
+/* header section start */
+#header{
+    background: linear-gradient(to bottom,#1B3F90,#274697,#11209D);
+}
+
+#header .form-control {
+    display: block;
+    width: 200px;
+    height: 30px;
+    padding: 0;
+   
+    color: #495057;
+    background-color: transparent;
+    
+    border: 1px solid #fff;  
+}
+#header .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+#header .navbar-nav .nav-link:hover{
+    color:#FEDA22;
+}
+#header .header-l {
+    padding: 54px 0 66px 0;
+}
+#header .header-r {
+    margin-left: 310px;
+}
+#header .header-r .img-l{
+    padding: 47px 0 30px 0;
+}
+#header .header-r p {
+    position: absolute;
+    top: 132px;
+    color: #fff;
+    right: -91px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#header .header-r .img-r{
+    padding: 66px 0 0 0;
+}
+
+/* banner section start */
+#banner .line{
+    background: linear-gradient(to right, #FEDA22,#F7BE17,#E98B07);
+    height:21px;
+}
+/* banner section end */
+
+
+
+/* service section start */
+#service .ser-area{
+    background: linear-gradient(#ABCEDF,#AEBDDA,#B4B5D3);
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+#service .card {
+    background-color: transparent;
+    border:none;
+    height: 760px;
+}
+#service .card-body {
+    position: relative;
+    padding: 13px 32px 20px 32px;
+}
+
+#service .card-body ul li {
+    text-align: justify;
+    padding: 7px 0 7px 26px;
+    color: #336;
+}
+#service .ser-area {
+    margin: 69px 2px 0px 2px;
+    border-radius: 10px;
+
+}
+.partnerlogo {
+	max-width: 80px;
+	display: inline-block;
+    margin-top: 65px;
+}
+.partnerlogo img{ width: 100%;
+
+}
+#service .card-body ul li:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #333366;
+    border-radius: 50%;
+    position: absolute;
+    left: 36px;
+    margin-top: 4px;
+}
+#service .card-body .text h3 {
+    background: linear-gradient(to right, #333366,#006699,#0066cc);
+    width: 171px;
+    border-radius: 10px;
+    padding: 2px 0;
+    color: #fff;
+    margin: auto;
+    border: 1px solid #fff;
+}
+#service .card-body .text p {
+    color: #333366;
+    font-size: 21px;
+    font-weight: bold;
+}
+/* service section end */
+
+
+/* trainer section start */
+#trainer{
+    margin-bottom: 45px;
+}
+#trainer .heading {
+    background: linear-gradient(to right, #336,#069,#5784b0);
+    width: 400px;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 45px auto;
+}
+#trainer .left-content{
+    background: linear-gradient(to left, #ABCEDF,#AEBDDA,#B4B5D3);
+    color: #333366;
+    padding: 50px 50px 25px 50px;
+    border-radius: 10px;
+}
+#trainer .left-content h4:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #333366;
+    border-radius: 50%;
+    position: absolute;
+    left: 46px;
+    margin-top: 7px;
+}
+#trainer .left-content ul{
+    padding-left: 20px;
+}
+#trainer .left-content ul li:before{
+    content: "";
+    width: 9px;
+    height: 9px;
+    background: #333366;
+    border-radius: 50%;
+    position: absolute;
+    left: 65px;
+    margin-top: 8px;
+}
+
+#trainer .right-content{
+    background: linear-gradient(to left, #ABCEDF,#AEBDDA,#B4B5D3);
+    color: #333366;
+    padding: 100px 50px 86px 50px;
+    border-radius: 10px;
+}
+/* trainer section end */
+
+
+
+/* plan section start */
+
+  .lesson_div {
+    background: linear-gradient(to right, #333366,#006699,#0066cc); 
+    border-radius: 10px;
+    padding: 14px 0 14px 57px;
+  }
+  .lesson_div h3 {
+    color:#fff;
+  }
+  .lesson_paragrap .card {
+    padding: 17px 15px;
+    border-radius: 10px;
+  }
+
+/* plan section end */
+
+
+/* pool section start */
+#pool{
+    margin-top: 35px;
+}
+#pool h3{
+    background: linear-gradient(to right, #333366,#006699,#0066cc);
+    width: 620px;
+    border-radius: 10px;
+    padding: 14px 0 14px 51px;
+    color: #fff;
+    margin: 0 auto 40px auto;
+}
+#pool .pool-con{
+    color:#333366;
+}
+#pool .pool-area{
+    margin-top: 20px;
+}
+#pool .pool-area img{
+   width: 300px;
+   margin-left: 56px;
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+}
+#pool .pool-area .pool-con {
+    margin-top: 8px;
+}
+/* pool section end */
+
+
+
+/* graduate section start */
+#graduate .graduate-area{
+    height:445px;
+}
+#graduate h3{
+    background: linear-gradient(to right, #333366,#006699,#0066cc);
+    width: 403px;
+    border-radius: 10px;
+    padding: 14px 0 14px 51px;
+    color: #fff;
+    margin: 60px auto 40px auto;
+}
+#graduate .graduate-area{
+    background: linear-gradient(to bottom, #ABCEDF,#ADBCD9,#c9bccc);
+    border-radius: 10px;
+}
+#graduate .graduate-area img {
+    width: 325px;
+}
+#graduate .graduate-area h6 {
+    padding: 20px 20px 25px 20px;
+    text-align: center;
+}
+/* graduate section end */
+
+
+
+/* register section start */
+#register{
+    background-image: url(../image/brac-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 770px !important;
+    margin-top: 35px;
+  
+  
+}
+#register .content h3 {
+    text-align: center;
+    padding: 0 204px;
+    padding-bottom: 0px;
+}
+
+#register .content p{
+    
+}
+
+#register .content{
+    
+    width: 850px;
+    margin: 25px auto;
+    padding: 56px 0;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#register .con-overlay{
+    background: rgba(48, 107, 151, 0.3);
+    width: 895px;
+    padding-left: 20px;
+    border: 1px solid #cab8b8;
+    margin: 143px 0 36px 108px;
+}
+#register a{
+    padding: 0px 27px 8px 27px;
+    font-size: 33px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: -22px 0 0px 420px;
+    color: black;
+    background: #fff;
+}
+/* register section end */
+
+
+/* footer section start */
+#footer{
+    background: #ffffff;
+}
+#footer .icon ul {
+    margin-left: 390px;
+}
+#footer .icon ul li{
+    float: left;
+}
+/* footer section end */
+
+
+/* media query start */
+
+
+@media only screen and (max-width: 1230px)  {
+    #header .header-r {
+        margin-left: 263px;
+    }
+    #header .header-r p {
+        right: -7px;
+    }
+}
+@media only screen and (max-width: 1135px)  {
+    #header .header-r {
+        margin-left: 191px;
+    }
+    #header .header-r p {
+        right: -50px;
+    }
+}
+@media only screen and (max-width: 1199px)  {
+    /* =====pool====== */
+    #pool .pool-area img {
+        margin-left: 73px;
+    }
+     /* =====trainer====== */
+    #trainer .right-content {
+        padding-bottom: 111px;
+    }
+     /* =====register====== */
+    #register input {
+        margin-left: 339px;
+    }
+    /* =====footer====== */
+    #footer .icon ul {
+        margin-left: 324px;
+    }
+    /* =====graduate====== */
+    #graduate .graduate-area img {
+        width: 289px;
+    }
+    /* =====service====== */
+    #service .card {
+        height: 695px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    /* =====header====== */
+
+    #header .navbar-nav {
+        margin: 21px auto 10px auto;
+        text-align: center;
+        width: 185%;
+    }
+    .header-r p {
+        right: 13px !important;
+    }
+    #header .header-r img {
+        width: 71%;
+        margin: 82px 55px 5px 55px;
+    }
+    #header .form-control {
+        margin-left: 93%;
+    }
+    #header .search {
+        margin-left: 111% !important;
+    }
+    #header .navbar-nav {
+        padding-left: 151px;
+    }
+    #header .header-r {
+        margin: -98px -20px 30px 107px;
+    }
+    #header .navbar-nav .nav-link {
+        color: #e4bf6b;
+        background: #495b8e;
+        border-bottom: 1px solid #fff;
+    }
+    .navbar-light .navbar-toggler {
+        background: #fff;
+        margin-left: -45px;
+    }
+    #header .header-r {
+        margin-left: -42px !important;
+    }
+    
+
+    /* ====service==== */
+    #service .ser-area {
+        margin: 30px auto;
+        width: 108%;
+    }
+/* ====trainer==== */
+    #trainer .heading {
+        width: 64%;
+        padding: 28px 1px;
+        margin: 40px auto;
+    }
+    #trainer .right-content {
+        width: 106%;
+        margin: 0 auto;
+        padding-bottom: 110px;
+    }
+    #trainer .left-content {
+        width: 104%;
+        margin: 0px auto;
+    }
+
+
+/* ====lesson==== */
+.lesson_div {
+        width: 101%;
+        padding: 21px 0 12px 34px;
+    }
+    .lesson_paragrap .card {
+        width: 102%;
+    }
+    /* ====pool==== */
+    #pool h3 {
+        width: 55%;
+        margin: 0 auto;
+    }
+    #pool .pool-area {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #pool .pool-area img {
+        margin-left: 10px;
+    }
+
+    /* ====graduate==== */
+    #graduate h3 {
+        width: 55%;
+        margin: 45px auto;
+    }
+    #graduate .graduate-area {
+        margin: 0 auto;
+        width: 100%;
+    }
+    #graduate .graduate-area img {
+        width: 100%;
+       
+    }
+    /* ====register==== */
+    #register {
+        height: 540px;
+    }
+    #register .con-overlay {
+        width: 75%;
+        margin: 73px 3px 122px 77px;
+    }
+    #register .content {
+        width: 100%;
+        margin: 80px 5px 80px -1px;
+    }
+    #register input {
+        margin-left: 182px;
+    }
+    /* ====footer==== */
+    #footer .icon ul {
+        margin-left: 164px;
+    }
+
+}
+
+
+    @media only screen and (max-width: 767px) {
+
+        /* =====header====== */
+    
+        #header .navbar-nav {
+            width: 96%;
+            margin-top: 56px;
+            
+        }
+        #header .header-r img {
+            width: 56%;
+            position: relative;
+            top: -77%;
+            left: 48%;
+        }
+        #header .header-r p {
+            top: -81px !important;
+            left: 280px !important;
+        }
+        #header .form-control {
+            margin-left: 41%;
+        }
+        #header .search {
+            margin-left: 51% !important;
+        }
+        
+        #header .navbar-nav {
+            padding-left: 8px;
+            margin-top: 9px;
+        }
+        #header .header-r {
+            margin: -98px -20px 30px 107px;
+        }
+        #header .navbar-nav .nav-link {
+            color: #e4bf6b;
+            background: #495b8e;
+            border-bottom: 1px solid #fff;
+        }
+        .navbar-light .navbar-toggler {
+            background: #fff;
+            margin-left: -45px;
+        }
+        #header .header-r {
+            margin-left: -42px !important;
+        }
+        
+    
+        /* ====service==== */
+        #service .ser-area {
+            width: 100%;
+        }
+        #service .card {
+            height: 860px;
+        }
+    /* ====trainer==== */
+        
+        #trainer .right-content {
+            width: 100%;
+        }
+        #trainer .left-content {
+            width: 100%;
+            margin: 12px auto;
+        }
+    
+    
+    /* ====lesson==== */
+    .lesson_div {
+        margin: 10px auto;
+        text-align: center;
+        }
+        /* ====pool==== */
+        #pool h3 {
+            width: 71%;
+        }
+        #pool .pool-area img {
+            margin-left: 100px;
+        }
+    
+        /* ====graduate==== */
+        #graduate h3 {
+            width: 55%;
+            margin: 45px auto;
+        }
+        #graduate .graduate-area {
+            margin: 20px auto;
+            
+        }
+        #graduate .graduate-area img {
+            width: 54%;
+            margin-left: 21%;
+        }
+        #graduate .graduate-area h6 {
+            padding: 0px 40px;
+          
+        }
+        /* ====register==== */
+       
+        #register input {
+            margin-left: 140px;
+        }
+        /* ====footer==== */
+        #footer .icon ul {
+            margin-left: 118px;
+        }
+
+}
+@media only screen and (min-width: 767px){
+    #header .m-c {
+        display: none;
+       
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+     /* ====header==== */
+     #header .form-control {
+        margin-left: 38%;
+    }
+    #header .header-l {
+        padding-top: 22px;
+    }
+    #header {
+        height: 108px !important;
+    }
+    #header .header-r img {
+        display: none;
+    }
+    #header .m-c {
+        margin-right: 128px !important;
+    }
+    #header {
+        height: 100px;
+    }
+    #header .m-c img {
+        width: 200px;
+    }
+    /* ====lesson==== */
+    .lesson_div {
+        width: 45%;
+    }
+    .lesson_paragrap .card {
+        width: 100%;
+    }
+    /* ====pool==== */
+    #pool .pool-area img {
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    /* ====header==== */
+    #header .header-r img {
+        top: -328%;
+        left: 35%;
+    }
+    #header {
+        height: 161px;
+    }
+    #service .card {
+        height: 810px;
+    }
+
+
+    #header .form-control {
+       margin-left: 35%;
+   }
+   /* ====lesson==== */
+   .lesson_div {
+       width: 45%;
+   }
+   .lesson_paragrap .card {
+       width: 100%;
+   }
+   /* ====graduate==== */
+   #graduate .graduate-area h6 {
+    padding: 60px 40px 0px 40px;
+}
+   /* ====pool==== */
+   #pool .pool-area img {
+    margin-left: 72px;
+}
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px){
+    #pool .pool-area img {
+        margin-left: 21px !important;
+    }
+}
+@media only screen and (min-width: 414px) and (max-width: 736px){
+    #pool .pool-area img {
+        margin-left: 43px !important;
+    }
+    #footer {
+        height: 100px;
+    }
+    #footer .icon ul {
+        margin-left: 40px !important;
+    }
+    #register input {
+        margin-left: 53px !important;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    /* ====header==== */
+    #header .header-r img {
+        left: 33%;
+        display: none;
+    }
+    #header .m-c {
+        display: block;
+        width: 27%;
+        margin: 0px 159px 0px 0px;
+    }
+    /* ====register==== */
+    #register {
+        height: 613px;
+    }
+    #register .con-overlay {
+        width: 74%;
+        margin: 73px 3px 72px 47px;
+    }
+    
+    #register input {
+        margin-left: 36px;
+    }
+    /* ====footer==== */
+    #footer .icon ul {
+        margin-left: 17px;
+    }
+    /* ====graduate==== */
+    #graduate h3 {
+        width: 73%;
+        text-align: center;
+        padding: 10px 4px;
+    }
+    /* ====pool==== */
+    #pool .pool-area img {
+        margin-left: 18px;
+    }
+    #pool h3 {
+        width: 100%;
+    }
+     /* ====lesson_div==== */
+    .lesson_div {
+        width: 45%;
+        padding: 9px 6px;
+    }
+}
+
+
+
+
+/* Media Queries end */
+
+
+
+
+
+
